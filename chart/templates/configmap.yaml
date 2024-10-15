@@ -46,6 +46,12 @@ data:
         prober: tcp
         tcp:
           starttls: smtp
+      tcp_postgres_starttls:
+        prober: tcp
+        tcp:
+          starttls: postgres
+        tls_config:
+          insecure_skip_verify: true
       file:
         prober: file
       file_ca_certificates:
