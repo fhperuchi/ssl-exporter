@@ -25,7 +25,7 @@ serviceMonitor:
   # Extra labels to be identified by Prometheus
   extraLabels: {}
   # Metrics scrape interval
-  scrapeInterval: 15s
+  scrapeInterval: 60s
   # Metrics scrape timeout
   scrapeTimeout: 14s
   # External URLs to scrape
